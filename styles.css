@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 145, 255);
+}
+
+.bannerhead {
+    font-size: clamp(100px, 200px, 250px);
+    color: #0a2642;
+    text-align: center;
+}
+
+.astronaut {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+    
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}  
+
+.active {
+    background-color: #5bb1bc;
+} 
+
+
+section{
+    padding: 5px;
+    margin: 10px;
+}
+
+section article{
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    background-color: #d6b0fa;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+footer{
+    text-align: center;
+    display: inline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text-container {
+    flex-basis: calc(50% - 10px);
+}
+
+.text-inner-container {
+    margin-top: 20px;
+}
+
+.image-container {
+    flex-basis: calc(50% - 10px);
+}
+
+#oliebolplaatje {
+    display: block;
+    width: 40%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#badges {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 500px;
+}
+
+#huis {
+    margin-top: 25px;
+    width: 30%;
+}
+
+#wisehomez {
+    margin-top: 20px;
+    width: 68%;
+    height: 571px;
+
+}
+

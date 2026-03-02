@@ -132,33 +132,3 @@ footer{
     height: 571px;
 
 }
-
-.welkom-bericht {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-    background-color: #0a2642;
-    color: white;
-    padding: 12px 16px;
-    border-radius: 10px;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.welkom-bericht p {
-    margin: 0;
-}
-
-.welkom-bericht button {
-    background-color: #5bb1bc;
-    color: #0a2642;
-    border: none;
-    border-radius: 6px;
-    padding: 6px 10px;
-    cursor: pointer;
-    font-weight: bold;
-}
-

@@ -19,10 +19,6 @@
                 <li style="float:right"><a href="contact.html">Communicatie</a></li>
             </ul>
         </nav>
-        <div id="welkom-bericht" class="welkom-bericht" hidden>
-            <p>👋 Hallo, welkom op mijn website!</p>
-            <button id="sluit-welkom" type="button">Sluiten</button>
-        </div>
         <section>
             <article>
                 <h2>Wie ben ik?</h2>
@@ -50,21 +46,6 @@
             <p>Dus, als je nog nooit oliebollen hebt gegeten, is het hoog tijd om dat te veranderen. Ga NU oliebollen kopen of maak ze zelf thuis.</p>
             </article>
         </section>
-        <script>
-            const bezoekSleutel = "eersteBezoekGeweest";
-            const welkomBericht = document.getElementById("welkom-bericht");
-            const sluitWelkomKnop = document.getElementById("sluit-welkom");
-
-            if (!localStorage.getItem(bezoekSleutel)) {
-                welkomBericht.hidden = false;
-                localStorage.setItem(bezoekSleutel, "ja");
-            }
-
-            sluitWelkomKnop.addEventListener("click", () => {
-                welkomBericht.hidden = true;
-            });
-        </script>
-
         <footer>
             <h6>&copy 2026, all rights reserved</h6>
 		    <h6>Designed and developed by Casper Kraaijeveld.</h6>
